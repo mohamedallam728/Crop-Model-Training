@@ -1,18 +1,66 @@
-# 🌾 Smart Crop Recommendation (Model Training)
+# 🌾 Smart Agricultural AI Systems (NTI & ITIDA Summer Training)
 
-## 📌 Overview
-This repository contains the Machine Learning training pipeline for the Smart Crop Recommendation System. Developed as part of the **NTI & ITIDA Summer Training Program (2026)**.
+An end-to-end Machine Learning project suite designed to revolutionize agriculture through smart crop recommendation and harvest yield prediction. Developed as part of the **NTI & ITIDA Summer Training**.
 
-## 🌐 Live Demo
-You can try our fully interactive web application here: 
-👉 **[Smart Crop Recommendation System](https://crop-recommendation-system-fqeph5sec9kmxqmzzpzzf8.streamlit.app/)**
-*(Note: The deployment files and web app source code are maintained in a separate repository to keep this training workspace clean).*
+---
 
-## 👨‍💻 Team Members
+## 👨‍💻 Project Team
 * **Huthyfa Moamen Marei**
 * **Mohamed Alaaeldin Ragab Allam**
 * **Serag elden Mohamed Samir Ahmed**
+* **Menna Mohamed Ali**
+* **Mariam Mohamed Atef Altourky**
 
-## 📂 Repository Files
-* **`Crop_Recommendation_Model_Training.ipynb`**: The Jupyter Notebook containing the Exploratory Data Analysis (EDA), Data Preprocessing, and the training/evaluation of the Machine Learning models (Decision Tree, SVM, Random Forest, XGBoost).
-* **`Crop_recommendation.csv`**: The dataset used for training and testing the models.
+---
+
+## 🚀 Live Web Applications
+
+Explore our deployed interactive machine learning web applications:
+
+* **🌱 Smart Crop Recommendation System (Classification):** [Open Crop Recommender App](https://crop-recommendation-system-fqeph5sec9kmxqmzzpzzf8.streamlit.app/)
+* **📈 Smart Crop Yield Predictor (Regression):** [Open Crop Yield Predictor App](https://regression-nvdkdspv3ewsi7cvst6kbf.streamlit.app/)
+
+---
+
+## 📌 Project Overview & Architecture
+
+Modern agriculture requires data-driven decisions to maximize yield and optimize resource allocation. Our project is split into two independent, robust modules:
+
+### 1. 🌱 Crop Recommendation Module (Classification)
+* **Goal:** Recommends the optimal crop to cultivate based on environmental and soil conditions.
+* **Input Parameters:** Nitrogen ($\text{N}$), Phosphorus ($\text{P}$), Potassium ($\text{K}$), Temperature, Humidity, pH, and Rainfall.
+* **Algorithms Evaluated:** Decision Trees, Support Vector Machines (SVM), Random Forest, and **XGBoost**.
+* **Best Performer:** **XGBoost Classifier** achieving **99.3% accuracy**.
+
+### 2. 📈 Crop Yield Prediction Module (Regression)
+* **Goal:** Forecasts the expected harvest yield ($\text{hg/ha}$) for various crop items across different regions.
+* **Input Parameters:** Year, Average Rainfall ($\text{mm/year}$), Pesticides ($\text{tonnes}$), Average Temperature ($\text{°C}$), Crop Type, and Area Encoding.
+* **Algorithm:** **XGBoost Regressor** optimized for multi-feature agricultural regression.
+
+---
+
+## 📊 Model Performance Summary
+
+| System Type | Model / Algorithm | Performance Metric |
+| :--- | :--- | :--- |
+| **Crop Recommendation** | XGBoost Classifier | **99.3% Accuracy** 🏆 |
+| **Yield Prediction** | XGBoost Regressor | **High $R^2$ Score & Minimal RMSE** 🏆 |
+
+---
+
+## 🛠️ Tech Stack & Tools
+* **Programming Language:** Python
+* **Machine Learning & Data Processing:** Pandas, NumPy, Scikit-Learn, XGBoost, Joblib
+* **Web Framework:** Streamlit
+* **Deployment & Version Control:** Streamlit Cloud & GitHub
+
+---
+
+## 📂 Project Structure
+```text
+├── app.py                     # Main Streamlit application
+├── crop_model.pkl             # Trained XGBoost classification model
+├── label_encoder.pkl          # Label encoder for crops
+├── yield_model.pkl            # Trained XGBoost regression model
+├── requirements.txt           # Required dependencies
+└── README.md                  # Comprehensive project documentation
