@@ -5,7 +5,7 @@ This repository contains the Machine Learning training pipeline for the Smart Cr
 
 ## 🌐 Live Demo
 You can try our fully interactive web application here: 
-👉 **[Smart Crop Recommendation System]((https://crop-recommendation-system-fqeph5sec9kmxqmzzpzzf8.streamlit.app/))**
+👉 **[Smart Crop Recommendation System](https://crop-recommendation-system-fqeph5sec9kmxqmzzpzzf8.streamlit.app/)**
 *(Note: The deployment files and web app source code are maintained in a separate repository to keep this training workspace clean).*
 
 ## 👨‍💻 Team Members
