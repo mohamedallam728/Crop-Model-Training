@@ -8,8 +8,6 @@ An end-to-end Machine Learning project suite designed to revolutionize agricultu
 * **Huthyfa Moamen Marei**
 * **Mohamed Alaaeldin Ragab Allam**
 * **Serag elden Mohamed Samir Ahmed**
-* **Menna Mohamed Ali**
-* **Mariam Mohamed Atef Altourky**
 
 ---
 
