@@ -8,7 +8,9 @@ An end-to-end Machine Learning project suite designed to revolutionize agricultu
 * **Huthyfa Moamen Marei**
 * **Mohamed Alaaeldin Ragab Allam**
 * **Serag elden Mohamed Samir Ahmed**
-
+* **Mariam Mohamed Atef Altourky**
+* **Menna Mohamed Ali**
+  
 ---
 
 ## 🚀 Live Web Applications
